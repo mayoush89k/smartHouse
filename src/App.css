@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  border: 1px solid black;
+  margin: 5% 10%;
+  padding: 5%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*start*/
+.box{
+  border: 1px solid black;
+  width: 15%;
+  height: 10%;
+  padding: 5%;
+  color: black;
+}
+.thingBox{
+  border: 1px solid black;
+  width: 15%;
+  color: black;
+  flex-direction: row;
+}
+#addThing{
+  display: none;
+}
+
+.flexed{
+  display: flex;
+}
+
+#addRoom{
+  display: none;
+  margin:10% 25%;
+}
+
+#add{
+  margin:10% 25%;
+  width: 30%;
+  font-size: 300%;
+  padding: 8%;
+  font-weight: bold;
+  background: url(./addRoom.png) no-repeat;
+
+}
+#addPlus{
+  margin-left: 10% 25%;
+}
