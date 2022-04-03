@@ -18,7 +18,7 @@ export default function App() {
    return (
       <div className='App'>
          <Router>
-            <Title title="Smart House" />
+            <Title title="Smart House.." />
             <Switch>
                <Route exact path="/" component={() => (
                   <Provider value={rooms}>
